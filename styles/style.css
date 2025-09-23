@@ -125,7 +125,7 @@ body.page{
   position:absolute; inset:-6% -6% 0; z-index:0;
   background:
     radial-gradient(1200px 500px at 70% -10%, rgba(56,189,248,.35), transparent 60%),
-    url("/images/vault.PNG") center/cover no-repeat;
+    url("/images/vault.png") center/cover no-repeat;
   filter:saturate(1.25) contrast(1.1) brightness(1.15);
   transform:translateZ(0);
 }
@@ -585,4 +585,5 @@ body.page{
   .hero-v2{ row-gap: clamp(12px, 3vh, 28px);}
   .hero-v2__title{ position:relative; z-index: 61; margin-top: -25vh;}
   .ca{ position:relative; z-index: 60; margin-top: -25vh; }
+
 }
